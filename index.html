@@ -1,0 +1,401 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ideen, die Tickets verkaufen</title>
+<meta name="description" content="Pitch für Permanent Entertainment – drei Ideen, die Tickets verkaufen.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400..700&family=IBM+Plex+Mono:wght@400;500&family=Space+Grotesk:wght@400..700&display=swap">
+<style>
+  html, body { margin:0; height:100%; background:#050505; overflow:hidden; }
+  body { font-family:'DM Sans', Arial, sans-serif; color:#f2f2f2; -webkit-font-smoothing:antialiased; }
+  #viewport { position:fixed; inset:0; display:flex; align-items:center; justify-content:center; }
+  #stage { position:relative; width:1920px; height:1080px; transform-origin:center center; flex:none; }
+  .slide { position:absolute; inset:0; width:1920px; height:1080px; box-sizing:border-box; overflow:hidden;
+            display:flex; flex-direction:column; opacity:0; visibility:hidden; transition:opacity .45s ease, visibility 0s linear .45s; }
+  .slide.active { opacity:1; visibility:visible; transition:opacity .45s ease; }
+  .slide * { box-sizing:border-box; }
+  .slide h1, .slide h2, .slide h3, .slide p, .slide ul { margin:0; }
+  .slide h1 { font-size:96px; font-weight:600; line-height:1.1; }
+  .slide h2 { font-size:64px; font-weight:600; line-height:1.15; }
+  .slide h3 { font-size:44px; font-weight:600; line-height:1.2; }
+  .slide p  { font-size:32px; line-height:1.4; }
+  .slide ul { padding-left:1.2em; }
+  .slide a  { color:inherit; }
+  .vid { cursor:pointer; background:#000; }
+  #nav { position:fixed; right:20px; bottom:16px; display:flex; gap:8px; z-index:10; }
+  #nav button { font:500 14px 'IBM Plex Mono', monospace; color:#bbb; background:rgba(20,20,20,.7); border:1px solid #333;
+                 border-radius:999px; padding:8px 14px; cursor:pointer; }
+  #nav button:hover { color:#fff; border-color:#666; }
+  #hint { position:fixed; left:20px; bottom:20px; font:400 13px 'IBM Plex Mono', monospace; color:#666; z-index:10; }
+</style>
+</head>
+<body>
+<div id="viewport"><div id="stage">
+<section class="slide" id="cover" data-transition="fade" style="display:flex; flex-direction:column; justify-content:space-between; padding:128px; background:radial-gradient(circle at 78% 30%, #1f1f1f 0%, #0b0b0b 55%)">
+  <div style="position:absolute; top:96px; left:128px; width:1664px; height:2px; display:flex; flex-direction:column; background:#2a2a2a">
+  </div>
+  <div style="position:absolute; top:96px; left:128px; width:104px; height:2px; display:flex; flex-direction:column; background:#ffffff">
+  </div>
+  <p style="position:absolute; top:56px; left:128px; width:1300px; font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:20px; letter-spacing:2px; text-transform:uppercase; color:#6e6e6e"><span style="color:#ffffff">Intro</span> · 01 · 02 · 03 · Next Steps</p>
+  <p style="position:absolute; top:56px; left:1492px; width:300px; font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:20px; letter-spacing:2px; text-align:right; color:#6e6e6e">01 / 16</p>
+  <p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; letter-spacing:4px; text-transform:uppercase; color:#ffffff">Für Permanent Entertainment</p>
+  <div style="display:flex; flex-direction:column; gap:40px">
+    <h1 style="font-family:'Space Grotesk', Arial, sans-serif; font-size:128px; font-weight:700; line-height:1; letter-spacing:-3px; color:#f2f2f2">Ideen, die Tickets verkaufen<br><span style="color:#ffffff">und Festivalkultur nach vorne bringen</span></h1>
+    <p style="width:1250px; font-family:'DM Sans', Arial, sans-serif; font-size:44px; line-height:1.3; color:#a6a6a6">Drei Konzepte für eure Festivals – was heute machbar ist, beginnend mit einem Piloten.</p>
+  </div>
+  <p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; color:#8a8a8a">Thomas · 3D-Designer &amp; Producer · Berlin · [Datum]</p>
+  
+</section>
+<section class="slide" id="system" data-transition="fade" style="display:flex; flex-direction:column; gap:56px; padding:128px; background:radial-gradient(circle at 78% 30%, #1f1f1f 0%, #0b0b0b 55%)">
+  <div style="position:absolute; top:96px; left:128px; width:1664px; height:2px; display:flex; flex-direction:column; background:#2a2a2a">
+  </div>
+  <div style="position:absolute; top:96px; left:128px; width:208px; height:2px; display:flex; flex-direction:column; background:#ffffff">
+  </div>
+  <p style="position:absolute; top:56px; left:128px; width:1300px; font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:20px; letter-spacing:2px; text-transform:uppercase; color:#6e6e6e"><span style="color:#ffffff">Intro</span> · 01 · 02 · 03 · Next Steps</p>
+  <p style="position:absolute; top:56px; left:1492px; width:300px; font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:20px; letter-spacing:2px; text-align:right; color:#6e6e6e">02 / 16</p>
+  <p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; letter-spacing:4px; text-transform:uppercase; color:#ffffff">Drei Ideen</p>
+  <h2 style="width:1500px; font-family:'Space Grotesk', Arial, sans-serif; font-size:88px; font-weight:700; line-height:1.05; letter-spacing:-2px; color:#f2f2f2">Jede Idee bringt Fans einen Schritt näher ans Ticket.</h2>
+  <div style="flex:1"></div>
+  <div style="display:grid; gap:32px; grid-template-columns:1fr 1fr 1fr">
+    <div style="display:flex; flex-direction:column; gap:20px; padding:40px 0 0; border-top:4px solid #ffffff">
+      <p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; letter-spacing:2px; text-transform:uppercase; color:#ffffff">01 · Aufmerksamkeit</p>
+      <h3 style="font-family:'Space Grotesk', Arial, sans-serif; font-size:44px; font-weight:600; color:#f2f2f2">KI-Influencer</h3>
+      <p style="font-family:'DM Sans', Arial, sans-serif; font-size:32px; line-height:1.4; color:#a6a6a6">Eine Figur pro Festival, bei der Leute stoppen und folgen.</p>
+    </div>
+    <div style="display:flex; flex-direction:column; gap:20px; padding:40px 0 0; border-top:4px solid #ffffff">
+      <p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; letter-spacing:2px; text-transform:uppercase; color:#ffffff">02 · Überzeugung</p>
+      <h3 style="font-family:'Space Grotesk', Arial, sans-serif; font-size:44px; font-weight:600; color:#f2f2f2">Location-Rundgang</h3>
+      <p style="font-family:'DM Sans', Arial, sans-serif; font-size:32px; line-height:1.4; color:#a6a6a6">Ein 3D-Scan der Location auf der Website – Fans spüren den Ort vor dem Kauf.</p>
+    </div>
+    <div style="display:flex; flex-direction:column; gap:20px; padding:40px 0 0; border-top:4px solid #ffffff">
+      <p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; letter-spacing:2px; text-transform:uppercase; color:#ffffff">03 · Kauf</p>
+      <h3 style="font-family:'Space Grotesk', Arial, sans-serif; font-size:44px; font-weight:600; color:#f2f2f2">Persönliche Tickets</h3>
+      <p style="font-family:'DM Sans', Arial, sans-serif; font-size:32px; line-height:1.4; color:#a6a6a6">Ein Ticket, das man posten will – jeder Käufer bringt den nächsten.</p>
+    </div>
+  </div>
+  
+</section>
+<section class="slide" id="s1-statement" data-transition="push" style="display:flex; flex-direction:column; gap:40px; justify-content:center; padding:128px; background:radial-gradient(circle at 78% 30%, #1f1f1f 0%, #0b0b0b 55%)">
+  <div style="position:absolute; top:96px; left:128px; width:1664px; height:2px; display:flex; flex-direction:column; background:#2a2a2a">
+  </div>
+  <div style="position:absolute; top:96px; left:128px; width:312px; height:2px; display:flex; flex-direction:column; background:#ffffff">
+  </div>
+  <p style="position:absolute; top:56px; left:128px; width:1300px; font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:20px; letter-spacing:2px; text-transform:uppercase; color:#6e6e6e">Intro · <span style="color:#ffffff">01 — Maskottchen</span> · 02 · 03 · Next Steps</p>
+  <p style="position:absolute; top:56px; left:1492px; width:300px; font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:20px; letter-spacing:2px; text-align:right; color:#6e6e6e">03 / 16</p>
+  <p style="font-family:'Space Grotesk', Arial, sans-serif; font-size:200px; font-weight:700; line-height:1; letter-spacing:-6px; color:#ffffff">01</p>
+  <h2 style="font-family:'Space Grotesk', Arial, sans-serif; font-size:120px; font-weight:700; line-height:1.05; letter-spacing:-3px; color:#f2f2f2">Unterschiedliche Ai influencers presentieren die Festicals.</h2>
+  <p style="width:1300px; font-family:'DM Sans', Arial, sans-serif; font-size:44px; line-height:1.3; color:#a6a6a6">Eine KI-Figur pro Festival – mit eigenem Look, eigener Stimme und Persönlichkeit, entwickelt aus dem Sound des Festivals.</p>
+  
+</section>
+<section class="slide" id="5c37dcd5" style="background:radial-gradient(circle at 78% 30%, #1f1f1f 0%, #0b0b0b 55%)">
+  <img src="assets/4b4ace2da8fa5d6781e0d416a8e3f343.webp" alt="Drop an image here" id="bf8ef951" style="position:absolute; top:120px; left:50%; width:1100px; height:700px; border-radius:16px; transform:translateX(-50%)">
+  <p id="549a49b0" style="position:absolute; top:860px; left:50%; width:1100px; font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; text-align:center; color:#a6a6a6; transform:translateX(-50%)">Contact AI Influencer</p>
+<div style="position:absolute;left:128px;top:96px;width:1664px;height:2px;background:#2A2A2A"></div>
+<div style="position:absolute;left:128px;top:96px;width:416px;height:2px;background:#FFFFFF"></div>
+<p style="position:absolute;left:128px;top:56px;width:1300px;font-family:'IBM Plex Mono', 'Courier New', monospace;font-size:20px;letter-spacing:2px;text-transform:uppercase;color:#6E6E6E">Intro  ·  <span style="color:#FFFFFF">01 — Maskottchen</span>  ·  02  ·  03  ·  Next Steps</p>
+<p style="position:absolute;left:1492px;top:56px;width:300px;font-family:'IBM Plex Mono', 'Courier New', monospace;font-size:20px;letter-spacing:2px;text-align:right;color:#6E6E6E">04 / 16</p>
+</section>
+<section class="slide" id="02dde3a3" style="background:radial-gradient(circle at 78% 30%, #1f1f1f 0%, #0b0b0b 55%)">
+  <p id="ddbc6eb6" style="position:absolute; top:860px; left:50%; width:1100px; font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; text-align:center; color:#a6a6a6; transform:translateX(-50%)">Contact AI influencer</p>
+  <video class="vid" src="assets/47031d3676aed463d4636505be9763ae.mp4" poster="assets/b28d8828cb4360b1158fc4121517bf93.jpg" muted loop playsinline preload="metadata" aria-label="hf_20261007_185630_1faf7fc7-f112-4078-9f39-1606fd909f14.mp4" style="position:absolute; top:118.01px; left:50%; width:1039.35px; height:700px; transform:translateX(-50%); object-fit:cover"></video>
+<div style="position:absolute;left:128px;top:96px;width:1664px;height:2px;background:#2A2A2A"></div>
+<div style="position:absolute;left:128px;top:96px;width:520px;height:2px;background:#FFFFFF"></div>
+<p style="position:absolute;left:128px;top:56px;width:1300px;font-family:'IBM Plex Mono', 'Courier New', monospace;font-size:20px;letter-spacing:2px;text-transform:uppercase;color:#6E6E6E">Intro  ·  <span style="color:#FFFFFF">01 — Maskottchen</span>  ·  02  ·  03  ·  Next Steps</p>
+<p style="position:absolute;left:1492px;top:56px;width:300px;font-family:'IBM Plex Mono', 'Courier New', monospace;font-size:20px;letter-spacing:2px;text-align:right;color:#6E6E6E">05 / 16</p>
+</section>
+<section class="slide" id="7a9ca3e5" style="background:radial-gradient(circle at 78% 30%, #1f1f1f 0%, #0b0b0b 55%)">
+  <p id="ddbc6eb6" style="position:absolute; top:860px; left:50%; width:1100px; font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; text-align:center; color:#a6a6a6; transform:translateX(-50%)">Contact branded</p>
+  <video class="vid" src="assets/103de8330aae325604c7acb11b065116.mp4" poster="assets/0df3e780d5238d808d668c4a483b6865.jpg" muted loop playsinline preload="metadata" data-delay="1.5" aria-label="hf_20261008_050305_593d2f8e-139f-4b6e-836d-964376b91946.mp4" style="position:absolute; top:118px; left:50%; width:1039.33px; height:700.01px; transform:translateX(-50%); object-fit:cover"></video>
+<div style="position:absolute;left:128px;top:96px;width:1664px;height:2px;background:#2A2A2A"></div>
+<div style="position:absolute;left:128px;top:96px;width:624px;height:2px;background:#FFFFFF"></div>
+<p style="position:absolute;left:128px;top:56px;width:1300px;font-family:'IBM Plex Mono', 'Courier New', monospace;font-size:20px;letter-spacing:2px;text-transform:uppercase;color:#6E6E6E">Intro  ·  <span style="color:#FFFFFF">01 — Maskottchen</span>  ·  02  ·  03  ·  Next Steps</p>
+<p style="position:absolute;left:1492px;top:56px;width:300px;font-family:'IBM Plex Mono', 'Courier New', monospace;font-size:20px;letter-spacing:2px;text-align:right;color:#6E6E6E">06 / 16</p>
+</section>
+<section class="slide" id="mascot-world" data-transition="fade" style="display:flex; flex-direction:column; gap:48px; padding:128px; background:radial-gradient(circle at 78% 30%, #1f1f1f 0%, #0b0b0b 55%)">
+  <div style="position:absolute; top:96px; left:128px; width:1664px; height:2px; display:flex; flex-direction:column; background:#2a2a2a">
+  </div>
+  <div style="position:absolute; top:96px; left:128px; width:728px; height:2px; display:flex; flex-direction:column; background:#ffffff">
+  </div>
+  <p style="position:absolute; top:56px; left:128px; width:1300px; font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:20px; letter-spacing:2px; text-transform:uppercase; color:#6e6e6e">Intro · <span style="color:#ffffff">01 — Maskottchen</span> · 02 · 03 · Next Steps</p>
+  <p style="position:absolute; top:56px; left:1492px; width:300px; font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:20px; letter-spacing:2px; text-align:right; color:#6e6e6e">07 / 16</p>
+  <p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; letter-spacing:4px; text-transform:uppercase; color:#ffffff">Idee 01 · KI-Maskottchen</p>
+  <h2 style="font-family:'Space Grotesk', Arial, sans-serif; font-size:88px; font-weight:700; line-height:1.05; letter-spacing:-2px; color:#f2f2f2">Eine Figur. Viele Jobs.</h2>
+  <div style="flex:1"></div>
+  <div style="display:grid; gap:32px; grid-template-columns:1fr 1fr 1fr">
+    <div style="display:flex; flex-direction:column; gap:12px; padding:40px; background:#161616; border:1px solid #2a2a2a; border-radius:24px">
+      <h3 style="font-family:'Space Grotesk', Arial, sans-serif; font-size:44px; font-weight:600; color:#ffffff">Lineup-Reveals</h3>
+      <p style="font-family:'DM Sans', Arial, sans-serif; font-size:32px; line-height:1.4; color:#a6a6a6">Die Figur enthüllt jede Artist-Welle.</p>
+    </div>
+    <div style="display:flex; flex-direction:column; gap:12px; padding:40px; background:#161616; border:1px solid #2a2a2a; border-radius:24px">
+      <h3 style="font-family:'Space Grotesk', Arial, sans-serif; font-size:44px; font-weight:600; color:#ffffff">Merch-Showcase</h3>
+      <p style="font-family:'DM Sans', Arial, sans-serif; font-size:32px; line-height:1.4; color:#a6a6a6">Zeigt Merch in 3D, bevor es produziert wird.</p>
+    </div>
+    <div style="display:flex; flex-direction:column; gap:12px; padding:40px; background:#161616; border:1px solid #2a2a2a; border-radius:24px">
+      <h3 style="font-family:'Space Grotesk', Arial, sans-serif; font-size:44px; font-weight:600; color:#ffffff">Live-Moment</h3>
+      <p style="font-family:'DM Sans', Arial, sans-serif; font-size:32px; line-height:1.4; color:#a6a6a6">Erscheint als Stage-Visual auf den LED-Wänden.</p>
+    </div>
+    <div style="display:flex; flex-direction:column; gap:12px; padding:40px; background:#161616; border:1px solid #2a2a2a; border-radius:24px">
+      <h3 style="font-family:'Space Grotesk', Arial, sans-serif; font-size:44px; font-weight:600; color:#ffffff">Auf Anfrage</h3>
+      <p style="font-family:'DM Sans', Arial, sans-serif; font-size:32px; line-height:1.4; color:#a6a6a6">Eigener Content für Partner und Sponsoren.</p>
+    </div>
+    <div style="display:flex; flex-direction:column; gap:12px; padding:40px; background:#161616; border:1px solid #2a2a2a; border-radius:24px">
+      <h3 style="font-family:'Space Grotesk', Arial, sans-serif; font-size:44px; font-weight:600; color:#ffffff">Countdowns</h3>
+      <p style="font-family:'DM Sans', Arial, sans-serif; font-size:32px; line-height:1.4; color:#a6a6a6">Wöchentliche Social-Serie zwischen den Drops.</p>
+    </div>
+    <div style="display:flex; flex-direction:column; gap:12px; padding:40px; background:#161616; border:1px solid #2a2a2a; border-radius:24px">
+      <h3 style="font-family:'Space Grotesk', Arial, sans-serif; font-size:44px; font-weight:600; color:#ffffff">Sammelobjekte</h3>
+      <p style="font-family:'DM Sans', Arial, sans-serif; font-size:32px; line-height:1.4; color:#a6a6a6">Figuren und Skulpturen zum Mitnehmen.</p>
+    </div>
+  </div>
+  
+</section>
+<section class="slide" id="mascot-pilot" data-transition="fade" style="display:flex; flex-direction:column; gap:48px; padding:128px; background:radial-gradient(circle at 78% 30%, #1f1f1f 0%, #0b0b0b 55%)">
+  <div style="position:absolute; top:96px; left:128px; width:1664px; height:2px; display:flex; flex-direction:column; background:#2a2a2a">
+  </div>
+  <div style="position:absolute; top:96px; left:128px; width:832px; height:2px; display:flex; flex-direction:column; background:#ffffff">
+  </div>
+  <p style="position:absolute; top:56px; left:128px; width:1300px; font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:20px; letter-spacing:2px; text-transform:uppercase; color:#6e6e6e">Intro · <span style="color:#ffffff">01 — Maskottchen</span> · 02 · 03 · Next Steps</p>
+  <p style="position:absolute; top:56px; left:1492px; width:300px; font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:20px; letter-spacing:2px; text-align:right; color:#6e6e6e">08 / 16</p>
+  <p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; letter-spacing:4px; text-transform:uppercase; color:#ffffff">Idee 01 · Testphase</p>
+  <h2 style="font-family:'Space Grotesk', Arial, sans-serif; font-size:88px; font-weight:700; line-height:1.05; letter-spacing:-2px; color:#f2f2f2">Pilot phase starten und on the Fly dazulernen</h2>
+  <div style="flex:1"></div>
+  <div style="display:flex; flex-direction:row; gap:48px">
+    <div style="display:flex; flex-direction:column; flex:3">
+      <div style="display:flex; flex-direction:row; gap:32px; padding:28px 0; border-top:1px solid #2a2a2a">
+        <p style="width:220px; font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; color:#ffffff">Woche 1–3</p>
+        <p style="font-family:'DM Sans', Arial, sans-serif; font-size:32px; line-height:1.4; color:#f2f2f2">Figur gemeinsam mit eurem Team für [Festival] entwickeln</p>
+      </div>
+      <div style="display:flex; flex-direction:row; gap:32px; padding:28px 0; border-top:1px solid #2a2a2a">
+        <p style="width:220px; font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; color:#ffffff">Woche 4–6</p>
+        <p style="font-family:'DM Sans', Arial, sans-serif; font-size:32px; line-height:1.4; color:#f2f2f2">Lineup-Reveal und wöchentliche Social-Serie</p>
+      </div>
+      <div style="display:flex; flex-direction:row; gap:32px; padding:28px 0; border-top:1px solid #2a2a2a; border-bottom:1px solid #2a2a2a">
+        <p style="width:220px; font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; color:#ffffff">Woche 7–8</p>
+        <p style="font-family:'DM Sans', Arial, sans-serif; font-size:32px; line-height:1.4; color:#f2f2f2">Zahlen gemeinsam auswerten – dann go oder stop</p>
+      </div>
+    </div>
+    <div style="display:flex; flex-direction:column; gap:20px; flex:2; padding:48px; background:#161616; border:1px solid #2a2a2a; border-radius:24px">
+      <h3 style="font-family:'Space Grotesk', Arial, sans-serif; font-size:44px; font-weight:600; color:#f2f2f2">Messbare Ergebnisse</h3>
+      <ul style="font-family:'DM Sans', Arial, sans-serif; font-size:32px; line-height:1.5; color:#a6a6a6">
+        <li>Early-Bird-Verkäufe vs. Vorjahr</li>
+        <li>Follower-Wachstum und Saves</li>
+        <li>Kosten pro Content-Piece</li>
+      </ul>
+    </div>
+  </div>
+  
+</section>
+<section class="slide" id="s2-statement" data-transition="push" style="display:flex; flex-direction:column; gap:40px; justify-content:center; padding:128px; background:radial-gradient(circle at 78% 30%, #1f1f1f 0%, #0b0b0b 55%)">
+  <div style="position:absolute; top:96px; left:128px; width:1664px; height:2px; display:flex; flex-direction:column; background:#2a2a2a">
+  </div>
+  <div style="position:absolute; top:96px; left:128px; width:936px; height:2px; display:flex; flex-direction:column; background:#ffffff">
+  </div>
+  <p style="position:absolute; top:56px; left:128px; width:1300px; font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:20px; letter-spacing:2px; text-transform:uppercase; color:#6e6e6e">Intro · 01 · <span style="color:#ffffff">02 — Location-Splat</span> · 03 · Next Steps</p>
+  <p style="position:absolute; top:56px; left:1492px; width:300px; font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:20px; letter-spacing:2px; text-align:right; color:#6e6e6e">09 / 16</p>
+  <p style="font-family:'Space Grotesk', Arial, sans-serif; font-size:200px; font-weight:700; line-height:1; letter-spacing:-6px; color:#ffffff">02</p>
+  <h2 style="font-family:'Space Grotesk', Arial, sans-serif; font-size:120px; font-weight:700; line-height:1.05; letter-spacing:-3px; color:#f2f2f2">Die Location erleben, bevor man kauft.</h2>
+  <p style="width:1300px; font-family:'DM Sans', Arial, sans-serif; font-size:44px; line-height:1.3; color:#a6a6a6">Ein fotorealistischer 3D-Scan der Location, direkt auf der Website ald page integriert</p>
+  
+</section>
+<section class="slide" id="b27e66fc" style="background:radial-gradient(circle at 78% 30%, #1f1f1f 0%, #0b0b0b 55%)">
+  <p id="0c12ddf8" style="position:absolute; top:calc(50% + 220px); left:50%; width:800px; font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; text-align:center; color:#a6a6a6; transform:translate(-50%, -50%)">— Attribution</p>
+  <video class="vid" src="assets/ef537d6b4944426a61209ffafb97c676.mp4" poster="assets/fe4b799e0c1d667dad5e21e96994c316.jpg" muted loop playsinline preload="metadata" aria-label="Screencast From 2026-10-08 10-41-26.mp4" style="position:absolute; bottom:0; left:50%; width:2088.44px; height:1143.3px; opacity:1; transform:translateX(-50%); object-fit:cover"></video>
+  <h2 id="b70941d2" style="position:absolute; top:calc(50% - 40px); left:50%; width:1500px; font-family:'Space Grotesk', Arial, sans-serif; font-size:88px; font-weight:700; line-height:1.05; letter-spacing:-2px; text-align:center; color:#f2f2f2; transform:translate(-50%, -50%)">Gaussian splat live im Web</h2>
+<div style="position:absolute;left:128px;top:96px;width:1664px;height:2px;background:#2A2A2A"></div>
+<div style="position:absolute;left:128px;top:96px;width:1040px;height:2px;background:#FFFFFF"></div>
+<p style="position:absolute;left:128px;top:56px;width:1300px;font-family:'IBM Plex Mono', 'Courier New', monospace;font-size:20px;letter-spacing:2px;text-transform:uppercase;color:#6E6E6E">Intro  ·  01  ·  <span style="color:#FFFFFF">02 — Location-Splat</span>  ·  03  ·  Next Steps</p>
+<p style="position:absolute;left:1492px;top:56px;width:300px;font-family:'IBM Plex Mono', 'Courier New', monospace;font-size:20px;letter-spacing:2px;text-align:right;color:#6E6E6E">10 / 16</p>
+</section>
+<section class="slide" id="splat" data-transition="fade" style="display:flex; flex-direction:column; gap:48px; padding:128px; background:radial-gradient(circle at 78% 30%, #1f1f1f 0%, #0b0b0b 55%)">
+<div style="position:absolute;left:128px;top:96px;width:1664px;height:2px;background:#2A2A2A"></div>
+<div style="position:absolute;left:128px;top:96px;width:1144px;height:2px;background:#FFFFFF"></div>
+<p style="position:absolute;left:128px;top:56px;width:1300px;font-family:'IBM Plex Mono', 'Courier New', monospace;font-size:20px;letter-spacing:2px;text-transform:uppercase;color:#6E6E6E">Intro  ·  01  ·  <span style="color:#FFFFFF">02 — Location-Splat</span>  ·  03  ·  Next Steps</p>
+<p style="position:absolute;left:1492px;top:56px;width:300px;font-family:'IBM Plex Mono', 'Courier New', monospace;font-size:20px;letter-spacing:2px;text-align:right;color:#6E6E6E">11 / 16</p>
+  <p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; letter-spacing:4px; text-transform:uppercase; color:#ffffff">Idee 02 · Gaussian Splat</p>
+  <h2 style="font-family:'Space Grotesk', Arial, sans-serif; font-size:88px; font-weight:700; line-height:1.05; letter-spacing:-2px; color:#f2f2f2">Die Website wird zur Location.</h2>
+  <div style="flex:1"></div>
+  <div style="display:grid; gap:32px; grid-template-columns:1fr 1fr">
+    <div style="display:flex; flex-direction:column; gap:12px; padding:40px; background:#161616; border:1px solid #2a2a2a; border-radius:24px">
+      <h3 style="font-family:'Space Grotesk', Arial, sans-serif; font-size:44px; font-weight:600; color:#ffffff">Scrollen statt laufen</h3>
+      <p style="font-family:'DM Sans', Arial, sans-serif; font-size:32px; line-height:1.4; color:#a6a6a6">Scrollen führt die Kamera vom Eingang bis zur Main Stage.</p>
+    </div>
+    <div style="display:flex; flex-direction:column; gap:12px; padding:40px; background:#161616; border:1px solid #2a2a2a; border-radius:24px">
+      <h3 style="font-family:'Space Grotesk', Arial, sans-serif; font-size:44px; font-weight:600; color:#ffffff">Stage Show</h3>
+      <p style="font-family:'DM Sans', Arial, sans-serif; font-size:32px; line-height:1.4; color:#a6a6a6">Mach die location zur Bühnenshow, gaussian splat environment show</p>
+    </div>
+    <div style="display:flex; flex-direction:column; gap:12px; padding:40px; background:#161616; border:1px solid #2a2a2a; border-radius:24px">
+      <h3 style="font-family:'Space Grotesk', Arial, sans-serif; font-size:44px; font-weight:600; color:#ffffff">KI-Location-Previews</h3>
+      <p style="font-family:'DM Sans', Arial, sans-serif; font-size:32px; line-height:1.4; color:#a6a6a6">Die leere Location so zeigen, wie sie nachts aussieht – vor dem Aufbau.</p>
+    </div>
+    <div style="display:flex; flex-direction:column; gap:12px; padding:40px; background:#161616; border:1px solid #2a2a2a; border-radius:24px">
+      <h3 style="font-family:'Space Grotesk', Arial, sans-serif; font-size:44px; font-weight:600; color:#ffffff">Nochmal erleben</h3>
+      <p style="font-family:'DM Sans', Arial, sans-serif; font-size:32px; line-height:1.4; color:#a6a6a6">Das Festival live scannen und zum Early-Bird-Start im nächsten Jahr zeigen.</p>
+    </div>
+  </div>
+  
+</section>
+<section class="slide" id="s3-statement" data-transition="push" style="background:radial-gradient(circle at 78% 30%, #1f1f1f 0%, #0b0b0b 55%);color:#F2F2F2;font-family:'DM Sans', Arial, sans-serif;padding:128px;display:flex;flex-direction:column;justify-content:center;gap:40px">
+<div style="position:absolute;left:128px;top:96px;width:1664px;height:2px;background:#2A2A2A"></div>
+<div style="position:absolute;left:128px;top:96px;width:1248px;height:2px;background:#FFFFFF"></div>
+<p style="position:absolute;left:128px;top:56px;width:1300px;font-family:'IBM Plex Mono', 'Courier New', monospace;font-size:20px;letter-spacing:2px;text-transform:uppercase;color:#6E6E6E">Intro  ·  01  ·  02  ·  <span style="color:#FFFFFF">03 — Tickets</span>  ·  Next Steps</p>
+<p style="position:absolute;left:1492px;top:56px;width:300px;font-family:'IBM Plex Mono', 'Courier New', monospace;font-size:20px;letter-spacing:2px;text-align:right;color:#6E6E6E">12 / 16</p>
+<p style="font-family:'Space Grotesk', Arial, sans-serif;font-size:200px;font-weight:700;line-height:1;letter-spacing:-6px;color:#FFFFFF">03</p>
+<h2 style="font-family:'Space Grotesk', Arial, sans-serif;font-size:120px;font-weight:700;line-height:1.05;letter-spacing:-3px;color:#F2F2F2">Jedes Ticket wird zur Werbung.</h2>
+<p style="font-size:44px;line-height:1.3;color:#A6A6A6;width:1300px">Ein persönliches 3D-Ticket, das Käufer posten wollen – und das ihre Freunde gleich mitbringt.</p>
+
+</section>
+<section class="slide" id="ticket" data-transition="fade" style="display:flex; flex-direction:column; gap:48px; padding:128px; background:radial-gradient(circle at 78% 30%, #1f1f1f 0%, #0b0b0b 55%)">
+  <div style="position:absolute; top:96px; left:128px; width:1664px; height:2px; display:flex; flex-direction:column; background:#2a2a2a">
+  </div>
+  <div style="position:absolute; top:96px; left:128px; width:1352px; height:2px; display:flex; flex-direction:column; background:#ffffff">
+  </div>
+  <p style="position:absolute; top:56px; left:128px; width:1300px; font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:20px; letter-spacing:2px; text-transform:uppercase; color:#6e6e6e">Intro · 01 · 02 · <span style="color:#ffffff">03 — Tickets</span> · Next Steps</p>
+  <p style="position:absolute; top:56px; left:1492px; width:300px; font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:20px; letter-spacing:2px; text-align:right; color:#6e6e6e">13 / 16</p>
+  <p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; letter-spacing:4px; text-transform:uppercase; color:#ffffff">Idee 03 · Persönliche Tickets</p>
+  <h2 style="font-family:'Space Grotesk', Arial, sans-serif; font-size:88px; font-weight:700; line-height:1.05; letter-spacing:-2px; color:#f2f2f2">Ein Ticket zum Posten.</h2>
+  <div style="flex:1"></div>
+  <div style="display:flex; flex-direction:row; gap:64px; align-items:center">
+    <div style="width:500px; display:flex; flex-direction:column; gap:20px; align-items:center; padding:40px; background:linear-gradient(160deg, #ffffff 0%, #bdbdbd 100%); border-radius:32px; box-shadow:0 24px 64px #ffffff14; transform:rotate(-3deg)">
+      <p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; letter-spacing:3px; text-transform:uppercase; color:#0b0b0b">[Ikaruse]</p>
+      <div style="width:180px; height:180px; background:#0b0b0b; border-radius:50%"></div>
+      <p style="font-family:'DM Sans', Arial, sans-serif; font-size:24px; color:#0b0b0b">Deine Festival-Figur</p>
+      <p style="font-family:'Space Grotesk', Arial, sans-serif; font-size:44px; font-weight:700; color:#0b0b0b">[Max Muster]</p>
+      <p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; color:#0b0b0b">Nr. 00427 · Early Bird</p>
+    </div>
+    <div style="display:flex; flex-direction:column; flex:1">
+      <div style="display:flex; flex-direction:column; gap:8px; padding:24px 0; border-top:1px solid #2a2a2a">
+        <p style="font-family:'DM Sans', Arial, sans-serif; font-size:32px; font-weight:700; color:#ffffff">Für den Käufer gemacht</p>
+        <p style="font-family:'DM Sans', Arial, sans-serif; font-size:32px; line-height:1.4; color:#a6a6a6">Name, Ticketnummer und die Figur des Festivals – in 3D gerendert.</p>
+      </div>
+      <div style="display:flex; flex-direction:column; gap:8px; padding:24px 0; border-top:1px solid #2a2a2a">
+        <p style="font-family:'DM Sans', Arial, sans-serif; font-size:32px; font-weight:700; color:#ffffff">Bereit zum Teilen</p>
+        <p style="font-family:'DM Sans', Arial, sans-serif; font-size:32px; line-height:1.4; color:#a6a6a6">Story- und Feed-Formate, direkt nach dem Kauf.</p>
+      </div>
+      <div style="display:flex; flex-direction:column; gap:8px; padding:24px 0; border-top:1px solid #2a2a2a; border-bottom:1px solid #2a2a2a">
+        <p style="font-family:'DM Sans', Arial, sans-serif; font-size:32px; font-weight:700; color:#ffffff">Messbar</p>
+        <p style="font-family:'DM Sans', Arial, sans-serif; font-size:32px; line-height:1.4; color:#a6a6a6">Ein Referral-Code auf jedem Ticket zeigt, welche Shares zu Verkäufen werden.</p>
+      </div>
+    </div>
+  </div>
+  
+</section>
+<section class="slide" id="f7c485da" style="background:radial-gradient(circle at 78% 30%, #1f1f1f 0%, #0b0b0b 55%)">
+  <p id="26120775" style="position:absolute; top:860px; left:50%; width:1100px; font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; text-align:center; color:#ffffff; transform:translateX(-50%)">Tickets and goodies to share</p>
+  <img src="assets/eee57f583acef3201b8c1ea817aca158.png" alt="Screenshot From 2026-10-08 16-33-11.png" id="523b4430" style="position:absolute; top:120.01px; left:140.61px; width:458.02px; height:700px">
+  <img src="assets/0c96830f5ac8ddf47489f3a4b3b2e05e.png" alt="Screenshot From 2026-10-08 16-32-59.png" id="91adabf2" style="position:absolute; top:128px; left:1406.17px; width:449.92px; height:700px">
+  <video class="vid" src="assets/09086df2da099ee346cfab52af88f139.mp4" poster="assets/613d400b5366db1a661cc02b07aab5cd.jpg" muted loop playsinline preload="metadata" aria-label="Screencast From 2026-10-08 16-40-13.mp4" style="position:absolute; top:162px; left:691.81px; width:640px; height:616px; object-fit:cover"></video>
+<div style="position:absolute;left:128px;top:96px;width:1664px;height:2px;background:#2A2A2A"></div>
+<div style="position:absolute;left:128px;top:96px;width:1456px;height:2px;background:#FFFFFF"></div>
+<p style="position:absolute;left:128px;top:56px;width:1300px;font-family:'IBM Plex Mono', 'Courier New', monospace;font-size:20px;letter-spacing:2px;text-transform:uppercase;color:#6E6E6E">Intro  ·  01  ·  02  ·  <span style="color:#FFFFFF">03 — Tickets</span>  ·  Next Steps</p>
+<p style="position:absolute;left:1492px;top:56px;width:300px;font-family:'IBM Plex Mono', 'Courier New', monospace;font-size:20px;letter-spacing:2px;text-align:right;color:#6E6E6E">14 / 16</p>
+</section>
+<section class="slide" id="why-me" data-transition="push" style="display:flex; flex-direction:column; gap:48px; padding:128px; background:radial-gradient(circle at 78% 30%, #1f1f1f 0%, #0b0b0b 55%)">
+  <div style="position:absolute; top:96px; left:128px; width:1664px; height:2px; display:flex; flex-direction:column; background:#2a2a2a">
+  </div>
+  <div style="position:absolute; top:96px; left:128px; width:1560px; height:2px; display:flex; flex-direction:column; background:#ffffff">
+  </div>
+  <p style="position:absolute; top:56px; left:128px; width:1300px; font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:20px; letter-spacing:2px; text-transform:uppercase; color:#6e6e6e">Intro · 01 · 02 · 03 · <span style="color:#ffffff">Next Steps</span></p>
+  <p style="position:absolute; top:56px; left:1492px; width:300px; font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:20px; letter-spacing:2px; text-align:right; color:#6e6e6e">15 / 16</p>
+  <p style="font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; letter-spacing:4px; text-transform:uppercase; color:#ffffff">Warum ich</p>
+  <h2 style="font-family:'Space Grotesk', Arial, sans-serif; font-size:88px; font-weight:700; line-height:1.05; letter-spacing:-2px; color:#f2f2f2">Alles super machbar</h2>
+  <div style="flex:1"></div>
+  <div style="display:grid; gap:32px; grid-template-columns:1fr 1fr">
+    <div style="display:flex; flex-direction:column; gap:12px; min-height:384px; padding:40px; background:#161616; border:1px solid #2a2a2a; border-radius:24px">
+      <h3 style="font-family:'Space Grotesk', Arial, sans-serif; font-size:44px; font-weight:600; color:#ffffff">Characters</h3>
+      <p style="font-family:'DM Sans', Arial, sans-serif; font-size:32px; line-height:1.4; color:#a6a6a6">Characters lassen sich entwickeln und in piloten testen und generieren laufend reichweite</p>
+    </div>
+    <div style="display:flex; flex-direction:column; gap:12px; padding:40px; background:#161616; border:1px solid #2a2a2a; border-radius:24px">
+      <h3 style="font-family:'Space Grotesk', Arial, sans-serif; font-size:44px; font-weight:600; color:#ffffff">Schnell mit KI</h3>
+      <p style="font-family:'DM Sans', Arial, sans-serif; font-size:32px; line-height:1.4; color:#a6a6a6">KI-gestützte Workflows: mehr Content pro Woche, bei überschaubarem budget</p>
+    </div>
+  </div>
+  
+</section>
+<section class="slide" id="close" data-transition="fade" style="background:#ffffff">
+  <div style="position:absolute; top:96px; left:128px; width:1664px; height:2px; display:flex; flex-direction:column; background:#0b0b0b">
+  </div>
+  <p style="position:absolute; top:56px; left:128px; width:1300px; font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:20px; letter-spacing:2px; text-transform:uppercase; color:#6e6e6e">Intro · 01 · 02 · 03 · <span style="color:#0b0b0b">Next Steps</span></p>
+  <p style="position:absolute; top:56px; left:1492px; width:300px; font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:20px; letter-spacing:2px; text-align:right; color:#6e6e6e">16 / 16</p>
+  <p id="p76d824760c5dr0-90f43261" style="position:absolute; top:128px; left:128px; width:1664px; font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; letter-spacing:4px; text-transform:uppercase; color:#0b0b0b">Service</p>
+  <div id="p76d824760c5dr1-90f43261" style="position:absolute; top:383px; left:128px; width:1664px; height:315px; display:flex; flex-direction:column; gap:40px">
+    <h1 style="font-family:'Space Grotesk', Arial, sans-serif; font-size:160px; font-weight:700; line-height:1; letter-spacing:-4px; color:#0b0b0b">Beratung + Production</h1>
+    <p style="width:1300px; font-family:'DM Sans', Arial, sans-serif; font-size:44px; line-height:1.3; color:#1f1f1f">Genre begleite ich euch bei den Meetings, bereite Konzepte auf, definiere Art Directoin und Produziere finale Assets</p>
+  </div>
+  <p id="p76d824760c5dr2-90f43261" style="position:absolute; top:918px; left:128px; width:1664px; font-family:'IBM Plex Mono', 'Courier New', monospace; font-size:24px; color:#0b0b0b">Thomas · [thomasludwigwork@pm.me] · [017690986507] · [<a href="https://tommkotzu.github.io/portfolio/">Portfolio-Link</a>]</p>
+  
+</section>
+</div></div>
+<div id="nav"><button id="prev" aria-label="Zurück">←</button><button id="sound" aria-label="Ton an/aus">Ton aus</button><button id="next" aria-label="Weiter">→</button></div>
+<div id="hint">← → oder Wischen zum Navigieren</div>
+<script>
+(function () {
+  var stage = document.getElementById('stage');
+  var slides = Array.prototype.slice.call(stage.querySelectorAll('.slide'));
+  var cur = 0, soundOn = false, timers = [];
+  function fit() {
+    var s = Math.min(window.innerWidth / 1920, window.innerHeight / 1080);
+    stage.style.transform = 'scale(' + s + ')';
+  }
+  function vids(el) { return Array.prototype.slice.call(el.querySelectorAll('video')); }
+  function show(i) {
+    i = Math.max(0, Math.min(slides.length - 1, i));
+    timers.forEach(clearTimeout); timers = [];
+    slides.forEach(function (sl, k) {
+      sl.classList.toggle('active', k === i);
+      if (k !== i) vids(sl).forEach(function (v) { v.pause(); });
+    });
+    vids(slides[i]).forEach(function (v) {
+      v.muted = !soundOn; v.currentTime = 0;
+      var d = parseFloat(v.dataset.delay || '0') * 1000;
+      timers.push(setTimeout(function () { var p = v.play(); if (p && p.catch) p.catch(function () {}); }, d));
+    });
+    cur = i;
+    if (history.replaceState) history.replaceState(null, '', '#' + (i + 1));
+    document.getElementById('hint').style.display = i === 0 ? '' : 'none';
+  }
+  function toggleSound() {
+    soundOn = !soundOn;
+    document.getElementById('sound').textContent = soundOn ? 'Ton an' : 'Ton aus';
+    vids(slides[cur]).forEach(function (v) { v.muted = !soundOn; });
+  }
+  document.addEventListener('keydown', function (e) {
+    if (['ArrowRight', 'PageDown', ' ', 'Enter'].indexOf(e.key) > -1) { e.preventDefault(); show(cur + 1); }
+    else if (['ArrowLeft', 'PageUp', 'Backspace'].indexOf(e.key) > -1) { e.preventDefault(); show(cur - 1); }
+    else if (e.key === 'Home') show(0);
+    else if (e.key === 'End') show(slides.length - 1);
+    else if (e.key === 'm' || e.key === 'M') toggleSound();
+    else if (e.key === 'f' || e.key === 'F') {
+      if (!document.fullscreenElement) document.documentElement.requestFullscreen && document.documentElement.requestFullscreen();
+      else document.exitFullscreen && document.exitFullscreen();
+    }
+  });
+  document.getElementById('prev').onclick = function () { show(cur - 1); };
+  document.getElementById('next').onclick = function () { show(cur + 1); };
+  document.getElementById('sound').onclick = toggleSound;
+  stage.addEventListener('click', function (e) {
+    if (e.target.tagName === 'VIDEO') { toggleSound(); return; }
+    if (e.target.closest('a')) return;
+    show(e.clientX > window.innerWidth / 2 ? cur + 1 : cur - 1);
+  });
+  var x0 = null;
+  document.addEventListener('touchstart', function (e) { x0 = e.touches[0].clientX; }, { passive: true });
+  document.addEventListener('touchend', function (e) {
+    if (x0 === null) return;
+    var dx = e.changedTouches[0].clientX - x0; x0 = null;
+    if (Math.abs(dx) > 40) show(dx < 0 ? cur + 1 : cur - 1);
+  });
+  window.addEventListener('resize', fit);
+  window.addEventListener('hashchange', function () {
+    var n = parseInt((location.hash || '#1').slice(1), 10) - 1;
+    if (!isNaN(n) && n !== cur) show(n);
+  });
+  fit();
+  var start = parseInt((location.hash || '#1').slice(1), 10) - 1;
+  show(isNaN(start) ? 0 : start);
+})();
+</script>
+</body>
+</html>
